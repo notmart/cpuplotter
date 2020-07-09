@@ -1,0 +1,17 @@
+[Config]
+chartFace=org.kde.ksysguard.linechart
+highPrioritySensorIds=["cpu/system/TotalLoad"]
+totalSensors=["cpu/system/TotalLoad"]
+lowPrioritySensorIds=["cpu/system/processors","cpu/system/cores"]
+
+[FaceConfig]
+lineChartFillOpacity=10
+lineChartSmooth=true
+lineChartStacked=false
+rangeAutoX=false
+rangeAutoY=true
+rangeFromX=0
+rangeFromY=0
+rangeToX=50
+rangeToY=100
+showLegend=true
